@@ -27,7 +27,6 @@ BuildRequires:	apache-devel >= 2.2.0
 BuildRequires:	libattr-devel
 BuildRequires:	file
 BuildRequires:	lynx
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 mod_mime_xattr is a module for the Apache HTTPD 2.2 which may be used to set a
