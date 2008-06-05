@@ -59,7 +59,7 @@ find . -type f|xargs file|grep 'text'|cut -d: -f1|xargs perl -p -i -e 's/\r//'
 rm -f configure
 libtoolize --force --copy; aclocal-1.8 ; autoheader; automake-1.8 --add-missing --copy --foreign; autoconf
 
-%configure2_5x
+%configure2_5x --localstatedir=/var/lib
 
 %make
 
