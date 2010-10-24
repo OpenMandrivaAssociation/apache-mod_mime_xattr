@@ -6,7 +6,7 @@
 Summary:	Lets you use file system extended attributes data for MIME type detection
 Name:		apache-%{mod_name}
 Version:	0.4
-Release:	%mkrel 9
+Release:	%mkrel 10
 Group:		System/Servers
 License:	Apache License
 URL:		http://0pointer.de/lennart/projects/mod_mime_xattr/
