@@ -97,3 +97,67 @@ fi
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/httpd/modules.d/%{mod_conf}
 %attr(0755,root,root) %{_libdir}/apache-extramodules/%{mod_so}
 %{_var}/www/html/addon-modules/*
+
+
+%changelog
+* Sat Feb 11 2012 Oden Eriksson <oeriksson@mandriva.com> 0.4-14mdv2012.0
++ Revision: 772689
+- rebuild
+
+* Tue May 24 2011 Oden Eriksson <oeriksson@mandriva.com> 0.4-13
++ Revision: 678348
+- mass rebuild
+
+* Thu Dec 02 2010 Paulo Andrade <pcpa@mandriva.com.br> 0.4-12mdv2011.0
++ Revision: 605222
+- Rebuild with apr with workaround to issue with gcc type based
+
+* Sun Oct 24 2010 Oden Eriksson <oeriksson@mandriva.com> 0.4-10mdv2011.0
++ Revision: 588033
+- rebuild
+
+* Mon Mar 08 2010 Oden Eriksson <oeriksson@mandriva.com> 0.4-9mdv2010.1
++ Revision: 516151
+- rebuilt for apache-2.2.15
+
+* Sat Aug 01 2009 Oden Eriksson <oeriksson@mandriva.com> 0.4-8mdv2010.0
++ Revision: 406622
+- rebuild
+
+* Tue Jan 06 2009 Oden Eriksson <oeriksson@mandriva.com> 0.4-7mdv2009.1
++ Revision: 326161
+- rebuild
+- rebuild
+
+* Mon Jul 14 2008 Oden Eriksson <oeriksson@mandriva.com> 0.4-5mdv2009.0
++ Revision: 235057
+- rebuild
+
+* Thu Jun 05 2008 Oden Eriksson <oeriksson@mandriva.com> 0.4-4mdv2009.0
++ Revision: 215609
+- fix rebuild
+- hard code %%{_localstatedir}/lib to ease backports
+
+* Thu Dec 20 2007 Olivier Blin <blino@mandriva.org> 0.4-3mdv2008.1
++ Revision: 135821
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sat Sep 08 2007 Oden Eriksson <oeriksson@mandriva.com> 0.4-3mdv2008.0
++ Revision: 82624
+- rebuild
+
+* Thu Jun 21 2007 Oden Eriksson <oeriksson@mandriva.com> 0.4-2mdv2008.0
++ Revision: 42298
+- fix #30839
+
+* Wed Apr 18 2007 Oden Eriksson <oeriksson@mandriva.com> 0.4-1mdv2008.0
++ Revision: 14447
+- Import apache-mod_mime_xattr
+
+
+
+* Wed Apr 18 2007 Oden Eriksson <oeriksson@mandriva.com> 0.4-1mdv2008.0
+- initial Mandriva package
