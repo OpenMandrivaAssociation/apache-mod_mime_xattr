@@ -9,7 +9,7 @@ Version:	0.4
 Release:	15
 Group:		System/Servers
 License:	Apache License
-URL:		http://0pointer.de/lennart/projects/mod_mime_xattr/
+URL:		https://0pointer.de/lennart/projects/mod_mime_xattr/
 Source0:	http://0pointer.de/lennart/projects/mod_mime_xattr/mod_mime_xattr-%{version}.tar.gz
 Source1:	%{mod_conf}
 Patch0:		mod_mime_xattr-0.4-no_silly_checks_because_we_know_the_apache_version_is_ok.diff
